@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bg-image{
+    position: relative;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    height: 100%;
+}
+
+.container{
+    position: absolute;
+    padding-top: 80px;
+}

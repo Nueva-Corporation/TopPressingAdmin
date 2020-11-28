@@ -1,0 +1,17 @@
+.bg-img{
+    position: relative;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    height: 100%;
+}
+
+.card{
+    position: absolute;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
