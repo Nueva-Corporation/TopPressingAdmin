@@ -9,6 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './content/partials/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarComponent } from './content/calendar/calendar.component';
+import { ActiviteComponent } from './content/activite/activite.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CalendarComponent } from './content/calendar/calendar.component';
     LoginComponent,
     RegisterComponent,
     NavbarComponent,
-    CalendarComponent
+    CalendarComponent,
+    ActiviteComponent
   ],
   imports: [
     BrowserModule,
